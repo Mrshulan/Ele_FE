@@ -12,4 +12,5 @@
 - 商家页面
 - 高德定位 (由于开了vpn so you know)
 
-![1552396735316](F:\locRepo\Ele_FE\src\assets\1552396735316.png)
+![1552396735316](https://github.com/Mrshulan/Ele_FE/blob/master/src/assets/1552396735316.png)
+
