@@ -1,0 +1,178 @@
+.app-ranking {
+  width: 100%;
+  background: #fff;
+  .ranking-navTop {
+    width: 100%;
+    height: .8rem;
+    font-size: .3rem;
+    line-height: .8rem;
+    .navTop-wrapper {
+      width: 100%;
+      height: 100%;
+      padding: 0 .24rem;
+      color: #999;
+      white-space: nowrap;
+      overflow: scroll ;
+      .navTop-item {
+        display: inline-block;
+        margin-right: .4rem;
+        &.active {
+          color: #333;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  .ranking-content {
+    .content-wrapper {
+      .content-item {
+        width: 100%;
+        padding: 0 .24rem .24rem;
+        border-bottom: 1px solid #eee;
+        .content-item-top {
+          display: flex;
+          padding: .22rem 0;
+          img{
+            width: .8rem;
+            height: .8rem;
+            border: .01rem solid rgba(0,0,0,.05);
+            margin-right: .16rem;
+          }
+          .item-title {
+            flex: auto;
+            display: flex;
+            flex-direction: column;
+            h3 {
+              display: flex;
+              justify-content: space-between;
+              height: .4rem;
+              margin-bottom: 0;
+              .title {
+                color: #666;
+                font-size: .3rem;
+                font-weight: 400;
+              }
+              .rate-result {               
+                color: #aaa;
+                font-size: .2rem;
+                line-height: .4rem;
+                span:nth-of-type(2) {
+                  display: inline-block;
+                  width: 0;
+                  height: .14rem;
+                  border-left: .02rem solid #ccc;
+                  margin: 0 .08rem;
+                }
+              }
+            }
+            .item-rateTag {
+              margin-bottom: 0;
+              li {
+                display: inline-block;
+                height: .34rem;
+                line-height: .34rem;
+                padding: 0 .08rem;
+                font-size: 2.93333vw;
+                color: #a45b1c;
+                border: 1px solid #d1ab8d;
+                border-radius: .01rem;
+                margin-right: .12rem;
+              }
+            }
+          }
+        }
+        .content-main {
+          margin-bottom: 0;
+          .goods-item {
+            display: flex;
+            width: 100%;
+            padding: .2rem 0;
+            img {
+              width: 2.18rem;
+              height: 2.18rem;
+              border: 1px solid rgba(0,0,0,.05);
+            }
+            .goods-info {
+              flex: auto;
+              height: 2.18rem;
+              position: relative;
+              margin-left: .2rem;
+              .goods-title {
+                height: .4rem;
+                margin-bottom: 0;
+                font-size: .34rem;
+                font-weight: 400;
+                line-height: .4rem; 
+              }
+              .goods-desc {
+                height: .3rem;
+                margin-top: .1rem;
+                color: #999;
+                font-size: .22rem;
+                line-height: .3rem;
+              }
+              .goods-tag {
+                width: 1rem;
+                height: .3rem;
+                padding: 0 0.08rem;
+                background-image: linear-gradient(-135deg,#ff7000,#ff2f00);
+                margin-top: .2rem;
+                color: #fff;
+                font-size: .2rem;
+                line-height: .3rem;
+              }
+              .goods-discount {
+                position: absolute;
+                left:0;
+                bottom: 0;
+                color: #b91f20;
+                font-weight: 700;
+                & > i {
+                  font-style: normal;
+                  font-size: .24rem;
+                  margin-right: .06rem;
+                }
+                & > span {
+                  font-size: .40rem;
+                }
+                .before {
+                  display: inline;
+                  margin-left: .15rem;
+                  text-decoration: line-through;
+                  color: #666;
+                  font-weight: 300;
+                  font-size: .24rem;
+                  & > i {
+                    font-style: normal;
+                  }
+                }
+              }
+              img{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                width: .4rem;
+                height: .4rem;
+              }
+            }
+          }
+        }
+        .goods-more {
+          height: .72rem;
+          color: #999;
+          font-size: .26rem;
+          line-height: .72rem;
+          text-align: center;
+          img {
+            width: .16rem;
+            height: .1rem;
+            margin-left: .1rem;
+          }
+        }
+      }
+    }
+
+
+  }
+}

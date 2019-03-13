@@ -1,0 +1,72 @@
+.app-search-top {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 1rem;
+  text-align: center;
+  .search-back {
+    width: .7rem;
+    height: .7rem;
+    padding: .1rem .1rem .1rem 0;
+    font-size: .4rem;
+    font-weight: 700;
+    line-height: .5rem;
+  }
+  .search-ipt {
+    position: relative;
+    width: 6.6rem;
+    height: 100%;
+    padding: .22rem .22rem .22rem 0;
+    margin-left: .2rem;
+    .search-icon {
+      position: absolute;
+      left: .1rem;
+      line-height: .6rem;
+    }
+    .search-ipt-content {
+      width: 5.5rem;
+      height: .55rem;
+      padding: .13rem .3rem .13rem .5rem;
+      background: #f8f8f8;
+      outline: 0;
+      border: 0;
+      color: #666;
+      font-size: .26rem;
+    }
+    .search-submit {
+      outline: none;
+      color: #333;
+      font-size: .32rem;
+      background: #fff;
+      margin-left: .2rem;
+      border: 0;
+      font-weight: 700;
+    }
+  }
+}
+.app-search-record {
+  .search-item {
+    width: 100%;
+    margin-top: .3rem;
+    .search-hot-title {
+      padding: .15rem .25rem;
+      color: #666;
+      font-size: .32rem;
+      font-weight: 700;
+    }
+    .search-hot-content {
+      padding: 0 .25rem .25rem .25rem;
+      .hot-content-item {
+        outline: 0;
+        height: .66rem;
+        padding: .15rem .2rem;
+        background-color: #f7f7f7;
+        border: 0;
+        margin: .25rem .25rem 0 0 ;
+      }
+    }
+  }
+  .search-histories{
+    margin-top: 0;
+  }
+}

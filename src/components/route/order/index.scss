@@ -1,0 +1,112 @@
+.app-order {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+  .orderCard {
+    display: block;
+    width: 100%;
+    height: 3rem;
+    margin-top: .2rem;
+    padding: .28rem 0 0 .3rem;
+    background: #fff;
+    .orderCard-body {
+      display: flex;
+      flex: auto;
+      height: 1.8rem;
+      .orderCard-avatar {
+        display: block;
+        width: .8rem;
+        height: 1.8rem;
+        flex: none;
+        padding-right: .1rem;
+        img {
+          width: .60rem;
+          height: .6rem;
+        }
+      }
+      .orderCard-content {
+        flex: auto;
+        height: 1.8rem;
+        color: #333;
+        .orderCard-head {
+          height: .9rem;
+          padding-right: .26rem;
+          padding-bottom: .2rem;
+          border-bottom: 1px solid #eee;
+          .title {
+            display: flex;
+            justify-content: space-between;
+            height: .48rem;
+            line-height: .48rem;
+            .name {
+              color: #333;
+              font-size: .32rem;
+              .iconfont {
+                margin-left: .1rem;
+                color: #999;
+                font-size: .2rem;
+              }
+            }
+            .status {
+              font-size: .26rem;
+            }
+          }
+          .datatime {
+            height: .32rem;
+            color: #999;
+            font-size: .22rem;
+          }
+        }
+        .orderCard-detail {
+          display: flex;
+          justify-content: space-between;
+          height: .9rem;
+          padding: .3rem .26rem .3rem 0;
+          border-bottom: 1px solid #eee;
+          span {
+            display: inline-block;            
+            height: .32rem;
+            color: #666;
+            font-size: .26rem;
+            line-height: .32rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }      
+          .productname {
+            max-width: 3.2rem;
+          }
+          .price {
+            height: .32rem;
+            color: #333;
+            font-size: .26rem;
+            line-height: .32rem;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+    .orderCard-botttom {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      height: .97rem;
+      padding: .2rem;
+      .cardbutton {
+        outline: 0;
+        padding: .1rem .2rem;
+        border: 1px solid;
+        margin-left: .15rem;
+        background-color: transparent;      
+        font-size: .26rem;
+        line-height: normal;
+      }
+      .oneOther {
+        color: #2395ff;
+      }
+      .remarkable {
+        color: #ff5339;
+      }
+    }
+  }
+}

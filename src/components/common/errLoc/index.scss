@@ -1,0 +1,28 @@
+.prod-content-loc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  img {
+    width: 4rem;
+    height: 4rem;
+  }
+  p {
+    margin-bottom: .1rem;
+    font-size: .23rem;
+  }
+
+  button {
+    padding: .2rem;
+    width: 2.4rem;
+    height: .8rem;
+    background-color: #56d176;
+    color: #fff;
+    font-size: .33rem;
+    text-align: center;
+    border: none;
+    outline: 0;
+    border-radius: .04rem;
+  }
+}

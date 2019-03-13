@@ -1,0 +1,114 @@
+.app-category {
+  height: 10000rem;
+  .category-navTop {
+    position: fixed;
+    display: flex;
+    top: 0; 
+    left: 0;
+    width: 100%rem;
+    height: .8rem;
+    background-image: linear-gradient(90deg,#0af,#0085ff);
+    z-index: 999;
+    .categoryList {
+      flex: auto;
+      overflow-x: scroll;
+      width: 6.6rem;
+      padding: 0 0 .1rem .3rem;
+      margin-bottom: 0;
+      font-size: .28rem;
+      line-height: .28rem;
+      white-space: nowrap;
+      .categoryList-item {
+        display: inline-block;
+        padding-top: .26rem;
+        padding-bottom: .12rem;
+        margin-right: .56rem;
+        color: #fff;
+        opacity: .7;
+        &.active {
+          opacity: 1;
+          font-weight: 700;
+          border-bottom: .03rem solid #fff;
+        }
+      }
+    }
+    .category-more {
+      width: .9rem;
+      height: 100%;
+      color: #fff;
+      text-align: center;
+      opacity: .7;
+      line-height: .8rem;
+    }
+  }
+  .entry-place {
+    padding: .2rem;
+    .entry-place-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: .38rem;
+      margin: .1rem 0 .16rem;
+      span:nth-of-type(1) {
+        color: #333;
+        font-size: .32rem;
+        font-weight: 700;
+      }
+      span:nth-of-type(2) {
+        color: #666;
+        font-size: .24rem;
+      }
+    }
+    .entry-place-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 3.44rem;
+      .food-item {
+        & > img {
+          width: 2.2rem;
+          height: 2.2rem;
+        }
+        .food-item-info {
+          width: 2.2rem;
+          color: #333;
+          .food-item-title {
+
+            height: .33rem;
+            margin-top: .1rem;
+            font-size: .28rem;
+            font-weight: 700;
+            line-height: .33rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+          .food-item-rate{
+            height: .28rem;
+            margin-top: .06rem;
+            font-size: .24rem;
+            opacity: .5;
+          }
+          .food-item-discount {
+            height: .31rem;
+            margin-top: .1rem;
+            span:nth-of-type(1) {
+              font-size: .26rem;
+              font-weight: 700;
+            }
+            span:nth-of-type(2) {
+              margin-left: .06rem;
+              font-size: .2rem;
+              text-decoration: line-through;
+              opacity: .5;
+            }
+          }
+        }
+      }
+    }
+  }
+  .filter-wraper {
+    top: .8rem;
+  }
+}
